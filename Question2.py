@@ -65,6 +65,6 @@ print("Product names and Prices:")
 for i in range(len(products)): 
     print(products[i].text,"=",prices[i].text)
 
-# adding the first product in the cart
-wait.until(EC.element_to_be_clickable((By.XPATH,"//button[@id='add-to-cart-sauce-labs-backpack']"))).click()
+# adding the 4th product in the cart
+wait.until(EC.element_to_be_clickable((By.XPATH,"//button[@id='add-to-cart-sauce-labs-fleece-jacket']"))).click()
 driver.close()
